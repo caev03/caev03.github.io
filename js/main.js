@@ -112,10 +112,10 @@ academic.merge(master, { message: "Finish Undergraduate career" })
 master.merge(academic, { message: "Accepted at Universidad de los Andes, Bogotá, Colombia" })
 var miso = gitgraph.branch({
     parentBranch: academic,
-    name: "Software Engineering Masters",
+    name: "Master in Software Engineering",
     column: academicalCol + 1
 })
-miso.commit({ message: "Software Engineering Masters Program" })
+miso.commit({ message: "Master in Software Engineering" })
 var tsdl = gitgraph.branch({
     parentBranch: miso,
     name: "The Software Design Lab",
@@ -175,7 +175,17 @@ miso.commit({ messageDisplay: false, tag: "Summer Course" })
 miso.merge(interests, { message: "Functional Programming" })
 interests.merge(android, { message: "Kotlin Programming Language" })
 
-
+miso.commit({ messageDisplay: false, tag: "Fourth Semester" })
+tsdl.commit("BlueHack Free Steps Against Human Trafficking")
+var bluehack = gitgraph.branch({
+    parentBranch: tsdl,
+    name: "Bluehack",
+    column: academicalCol + 4,
+    color: "#006"
+})
+bluehack.commit({message:"Winners of Hackaton", color: "#006"})
+bluehack.commit({message:"FIND - Contract with United Nations Office on Drugs and Crime", color: "#006"})
+bluehack.merge(tsdl, {message: " "})
 
 machineLearning.commit({ messageDisplay: false })
 publications.commit({ messageDisplay: false })
