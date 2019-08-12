@@ -23,7 +23,7 @@ var graphConfig = new GitGraph.Template({
         },
         message: {
             color: "black",
-            font: "normal 12pt Calibri",
+            font: "normal 10pt Calibri",
             displayAuthor: false,
             displayBranch: false,
             displayHash: false,
@@ -245,15 +245,15 @@ bluehack.merge(tsdl, {message: " "})
 mutapk.commit("Abstract Sintax Tree generation for Android App at APK Level")
 mutapk.commit("AST Mutation Operators rules translated from Java to SMALI")
 // mutapk.commit("First 10 AST mutation operators implemented")
-tsdl.commit("ICSME 2018")
+miso.commit("ICSME 2018")
 var icsme = gitgraph.branch({
-    parentBranch: tsdl,
+    parentBranch: miso,
     name: "ISCME 2018",
     column: academicalCol + 4,
     color: "#006"
 })
 icsme.commit({message:"Student Volunteer", color: "#006"})
-icsme.merge(tsdl, {message: " "})
+icsme.merge(miso, {message: " "})
 
 academic.commit("Google Latin America Research Award")
 var glara = gitgraph.branch({
@@ -292,6 +292,36 @@ machineLearning.commit({ messageDisplay: false })
 qaaa.merge(tsdl, {message: "Internationalization of Android Apps"})
 web.merge(tsdl, {message: "Mutation Testing for NodeJS apps"})
 
+phd.commit("ICSE 2019")
+var icsme = gitgraph.branch({
+    parentBranch: phd,
+    name: "ISCE 2019",
+    column: academicalCol + 4,
+    color: "#006"
+})
+icsme.commit({message:"Student Volunteer", color: "#006"})
+icsme.merge(phd, {message: " "})
+
+android.commit(" ")
+android.merge(swt, {message: " "})
+// swt.commit(" ")
+// seta.commit(" ")
+swt.merge(seta, {message: " "})
+seta.merge(tsdl, {message: "Cross-device Interaction-based Android Testing"})
+tsdl.merge(publications, { message: " " })
+var msr17 = gitgraph.branch({
+    parentBranch: publications,
+    name: "MSR2017",
+    column: academicalCol + 4,
+    color: "#006"
+})
+// msr17.commit({messageDisplay: false})
+msr17.commit({ message: "Paper Title: An Empirical Study on Android-related Vulnerabilities", color: "#006" })
+android.merge(msr17, { message: "Analysis of Android Security Bulletins", color: "#006" })
+web.merge(msr17, { message: "D3 Visualization of Analysis results", color: "#006" })
+msr17.merge(publications, { message: "Accepted Paper - Third Author" })
+publications.merge(tsdl, { messageDisplay: false })
+
 // miso.merge({})
 
 master.commit({ messageDisplay: false })
@@ -306,15 +336,15 @@ android.commit({ messageDisplay: false })
 interests.commit({ messageDisplay: false })
 swt.commit({ messageDisplay: false })
 seta.commit({ messageDisplay: false })
-master.commit({ messageDisplay: false })
-publications.commit({ messageDisplay: false })
-machineLearning.commit({ messageDisplay: false })
-tsdl.commit({ messageDisplay: false })
-web.commit({ messageDisplay: false })
-phd.commit({ messageDisplay: false })
-qaaa.commit({ messageDisplay: false })
-academic.commit({ messageDisplay: false })
-android.commit({ messageDisplay: false })
-interests.commit({ messageDisplay: false })
-swt.commit({ messageDisplay: false })
-seta.commit({ messageDisplay: false })
+// master.commit({ messageDisplay: false })
+// publications.commit({ messageDisplay: false })
+// machineLearning.commit({ messageDisplay: false })
+// tsdl.commit({ messageDisplay: false })
+// web.commit({ messageDisplay: false })
+// phd.commit({ messageDisplay: false })
+// qaaa.commit({ messageDisplay: false })
+// academic.commit({ messageDisplay: false })
+// android.commit({ messageDisplay: false })
+// interests.commit({ messageDisplay: false })
+// swt.commit({ messageDisplay: false })
+// seta.commit({ messageDisplay: false })

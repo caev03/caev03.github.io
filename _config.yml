@@ -25,7 +25,7 @@ paginate:         1
 scholar:
   style: apa
   source: ./_bibliography
-  sort: year
+  sort_by: year
   order: descending
   bibliography_template: bib
   

@@ -59,6 +59,8 @@ body {
   > .content {
     flex-grow: 1;
     padding-bottom: $section-spacing * 2;
+    margin-left: 5vw;
+    margin-right: 5vw;
   }
 }
 
@@ -110,7 +112,7 @@ body {
 
   // Bigger title
   .site-title {
-    font-size: 2rem;
+    font-size: 1.3rem;
   }
 
   // Show secondary nav content + lead
@@ -162,7 +164,7 @@ body {
 
   #sidebar {
     .site-title {
-      font-size: 2rem;
+      font-size: 1.3rem;
       .back-arrow { display: none; }
     }
 
