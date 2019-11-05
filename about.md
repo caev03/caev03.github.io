@@ -8,8 +8,8 @@ I am a first year Ph.D. student at the <a href="https://ingenieria.uniandes.edu.
   
 Recently, I defended my master thesis called <strong><em>Automatic Analysis of Android Closed-Source apps to Support Software Engineering Tasks: The Mutation Testing Case</em></strong> advised by <a href="https://profesores.virtual.uniandes.edu.co/mlinaresv/en/inicio-en">Prof. Mario Linares-Vásquez</a> at <a href="http://uniandes.edu.co">Universidad de los Andes</a>. My thesis commite was made of <a href="https://www.inf.usi.ch/faculty/bavota/">Prof. Gabriele Bavota</a> and <a href="https://profesores.virtual.uniandes.edu.co/ncardozo/en/inicio-en">Prof. Nicolas Cardozo</a>. I made my B.E. studies at <a href="http://uniandes.edu.co">Universidad de los Andes</a> under the advise of <a href="https://profesores.virtual.uniandes.edu.co/jhernand/en/inicio-en"> Prof. Jose Tiberio Hernández</a>, working on a improvement for <a href="http://diego0020.github.io/braviz/">Braviz</a>, where we replace the algorith used to extrapolate regions of interest that are sensible to the anatomic context of subject under study for analysis of brain tractographies in subject cohorts. The result of this work is being used by <a href="http://fundacioncanguro.co/"><em>Fundación Canguro</em></a>.
 
-<!-- <h1 id="resume">My academic life as a Git Flow</h1> -->
-<!-- <canvas id="gitGraph"> </canvas> -->
+<!-- <h1 id="resume">My academic life as a Git Flow</h1>
+<canvas id="gitGraph"> </canvas> -->
 
 <script src="assets/js/gitgraph.min.js"></script>
 <script src="assets/js/caevGraph.js"></script>

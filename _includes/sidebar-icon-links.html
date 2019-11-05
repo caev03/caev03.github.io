@@ -1,8 +1,8 @@
 <!-- <center> -->
-    <nav style="list-style: none; margin: auto 0 auto 0; width: 100%; justify-content: center;" id="sidebar-icon-links">
+    <nav style="list-style: none; margin: auto 0 auto 0; width: 90%; justify-content: center;" id="sidebar-icon-links">
       {% if site.github.repo %}
         <a id="github-link"
-           class="icon" title="Github Project" aria-label="Github Project"
+           class="icon" title="Github Profile" aria-label="Github Profile"
            href="{{ site.github.repo }}" >
           {% include svg/github.svg %}
         </a>
@@ -23,15 +23,16 @@
     
        {% if site.linkedin %}
         <a id="linkedin-link"
-           class="icon" title="linkedin" aria-label="Linkedin"
+           class="icon" title="Linkedin" aria-label="Linkedin"
            href="{{ site.linkedin }}">
           {% include svg/linkedin.svg %}
         </a>
       {% endif %}
-    
+    </nav>
+    <nav style="list-style: none; margin: auto 0 auto 0; width: 90%; justify-content: center;" id="sidebar-icon-links">
       {% if site.instagram %}
         <a id="instagram-link"
-           class="icon" title="instagram" aria-label="Instagram"
+           class="icon" title="Instagram" aria-label="Instagram"
            href="{{ site.instagram }}">
           {% include svg/instagram.svg %}
         </a>
@@ -39,11 +40,17 @@
     
       {% if site.gscholar %}
         <a id="scholar-link"
-           class="icon" title="scholar" aria-label="Google Scholar"
+           class="icon" title="Google Scholar" aria-label="Google Scholar"
            href="{{ site.gscholar }}">
           {% include svg/scholar.svg %}
         </a>
       {% endif %}
+
+      <a id="cv-link"
+           class="icon" title="CV" aria-label="CV"
+           href="/assets/pdfs/cv.pdf">
+           {% octicon briefcase height:32 %}
+        </a>
       <!--<a id="subscribe-link"
          class="icon" title="Subscribe" aria-label="Subscribe"
          href="{{ site.baseurl }}/feed.xml">

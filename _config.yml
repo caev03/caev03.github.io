@@ -19,7 +19,7 @@ author:
   url:            https://twitter.com/caev03
   email:          ca.escobar2434@uniandes.edu.co
 
-paginate:         1
+# paginate:         0
 # paginate_path:    '/page:num'
                     # Or '/blog/page:num' if you want to move your index pages
 scholar:
@@ -34,6 +34,7 @@ plugins:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-scholar
+  - jekyll-octicons
 
 # Sidebar link settings
 sidebar_home_link:  true
