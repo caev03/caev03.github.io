@@ -7,3 +7,6 @@ title: Publications
 
 ## International Conferences
 {% bibliography --file conferences%}
+
+## Posters
+{% bibliography --file posters%}

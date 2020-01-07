@@ -48,3 +48,9 @@ twitter: https://twitter.com/caev03
 linkedin: https://www.linkedin.com/in/caev03/
 instagram: https://www.instagram.com/caev03/
 gscholar: https://scholar.google.com/citations?user=cOGjd9kAAAAJ&hl=es
+
+defaults:
+  - scope:
+      path: "assets/imgs"
+    values:
+      image: true

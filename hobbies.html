@@ -259,7 +259,7 @@ img {
 <h2>Cooking</h3><br>
 <div class="card-columns">
     {% for image in site.static_files %}
-        {% if image.path contains 'hobbies/cooking' %}
+        {% if image.path contains 'cooking' %}
             <div class="card bg-dark text-white border border-secondary">
               <img  src="{{ site.baseurl }}{{ image.path }}" alt="Card image"/>
               <!-- <div class="card-img-overlay">
@@ -272,7 +272,7 @@ img {
 <h2>Photography</h3><br>
 <div class="card-columns">
     {% for image in site.static_files %}
-      {% if image.path contains 'hobbies/photograpy' %}
+      {% if image.path contains 'photo' %}
         {% include photo.html path=image.path %}
       {% endif %}
     {% endfor %}
