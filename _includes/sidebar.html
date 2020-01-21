@@ -1,14 +1,14 @@
 <div id="sidebar">
   <header>
     <img src="{{ site.baseurl}}/assets/GooglePhoto.jpg" alt="asdas" srcset="{{ site.baseurl}}/assets/GooglePhoto.jpg">
-    <{% if page.layout == "index" %}h4{% else %}div{% endif %} class="site-title">
+    <h1 class="site-title">
       <a href="{{ site.baseurl }}/">
         {% unless page.url == "/" %}
           <span class="back-arrow icon">{% include svg/back-arrow.svg %}</span>
         {% endunless %}
         {{ site.title }}
       </a>
-    </{% if page.layout == "index" %}h4{% else %}div{% endif %}>
+    </h1>
     <p class="lead">{{ site.description }}</p>
     <p class="lead" style="font-size: 0.7rem"><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
   </header>
