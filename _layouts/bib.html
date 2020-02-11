@@ -2,8 +2,8 @@
 ---
 
 {% if entry.type == "inproceedings" %}
-<strong>{{ entry.title }}.</strong> {{ entry.author }}. In {{ entry.booktitle }} {{ entry.year }} ( {{ entry.series }} ) <br>
-[<a href="{{ entry.url }}"> DOI </a>] [<a href="{{ entry.preprint }}"> PDF </a>] [ <a href="{{ entry.online }}"> Online Appendix </a> ]
+<strong>{{ entry.title }}.</strong> <em>{{ entry.author | replace:"Escobar-Velásquez, Camilo","<strong>Escobar-Velásquez, Camilo</strong>"}}</em>. In {{ entry.booktitle }} {{ entry.year }} ({{ entry.series }}) - {{ entry.track }} Track<br>
+{% if entry.doi %}[<a href="https://doi.org/{{ entry.doi }}"> DOI </a>]{% endif %} [<a href="{{ entry.preprint }}"> Pre-Print </a>] {% if entry.online %}[ <a href="{{ entry.online }}"> Online Appendix </a> ]{% endif %}
 {% elsif entry.type == "misc" %}
 <strong>{{ entry.title }}.</strong> {{ entry.author }}. In {{ entry.booktitle }} {{ entry.year }} [<a href="{{ entry.url }}"> DOI </a>]
 {% endif %}
