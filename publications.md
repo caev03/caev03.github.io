@@ -2,7 +2,9 @@
 layout: category
 title: Publications
 ---
-<!-- ## International Journals -->
+# International Journals
+{% bibliography --file journals %}
+
 <!-- ## Book Chapters -->
 
 ## International Conferences

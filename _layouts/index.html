@@ -15,9 +15,11 @@ layout: default
       <li>1st place winner - First Hackathon against human trafficking organized by UNODC, IBM and Pasos Libres Foundation  </li>
   </ul>
 
-  <h1>Publications</h1>
+  <h1>Selected Publications</h1>
+  <h2>Journals</h2>
+  {% bibliography -f journals -q @*[selected=true]%}
+  <h2>Conferences</h2>
   {% bibliography -f conferences -q @*[selected=true]%}
-
   <h1>Service</h1>
   <h3>Student Volunteer</h3>
   <ul>
