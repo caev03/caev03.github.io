@@ -7,8 +7,11 @@ title: Publications
 
 <!-- ## Book Chapters -->
 
-## International Conferences
+# International Conferences
 {% bibliography --file conferences%}
 
-## Posters
+# Workshops
+{% bibliography --file workshops%}
+
+# Posters
 {% bibliography --file posters%}
