@@ -13,6 +13,7 @@ My master thesis was called <strong><em>Automatic Analysis of Android Closed-Sou
 # Awards
 
 ## Research
+- <span style="color: #4285F4;">G</span><span style="color: #DB4437;">o</span><span style="color: #F4B400;">o</span><span style="color: #4285F4;">g</span><span style="color: #0F9D58;">l</span><span style="color: #DB4437;">e</span> Latin American Research Award 2020 - Enabling Automated Software Engineering Tasks for Closed-Source Mobile Apps (Extension)
 - <span style="color: #dd0016;">Swiss Government Excellence Scholarships for Foreign Scholars</span> 2020-2021 - Research Fellowship - State Secretariat for Education, Research and Innovation of the Swiss Confederation (SERI) and COLFUTURO
 - <span style="color: #4285F4;">G</span><span style="color: #DB4437;">o</span><span style="color: #F4B400;">o</span><span style="color: #4285F4;">g</span><span style="color: #0F9D58;">l</span><span style="color: #DB4437;">e</span> Latin American Research Award 2019 - Enabling Automated Software Engineering Tasks for Closed-Source Mobile Apps (Extension)
 - <span style="color: #15B0E0;">ACM</span> SIGAI Travel Support Scholarship - The 34th IEEE/ACM International Conference on Automated Software Engineering - ASE'19
@@ -28,6 +29,9 @@ My master thesis was called <strong><em>Automatic Analysis of Android Closed-Sou
 ## Organizing Comitee
 - The 1st Languages and Tools for Next Generation Testing Workshop - LANGETI'20, Nov 9, 2020, Sacramento, CA, USA.
 
+## Program Comitee
+- **Shadow PC** - The 18th International Conference on Mining Software Repositories - MSR'21, May 23-24, 2021, Madrid, Spain. (Virtually)
+
 ## Student Volunteer
 - The 13th IEEE International Conference on Software Testing, Verification and Validation - ICST'20, Oct 24-28, 2020, Porto, Portugal.
 - The 36th IEEE International Conference on Software Maintenance and Evolution - ICSME'20, Sep 27 - Oct 3, 2020, Adelaide, Australia.
@@ -37,7 +41,7 @@ My master thesis was called <strong><em>Automatic Analysis of Android Closed-Sou
 - The 34th IEEE International Conference on Software Maintenance and Evolution - ICSME'18, Sep 23-29, 2018, Madrid, Spain. 
 
 ## Talks
-- <em><strong>Enabling Automated Software Engineering Tasks for Closed-Source Android Apps</strong></em> - 70th Anniversary of Research and Creation at Universidad de los Andes
+- <em><strong>Enabling Automated Software Engineering Tasks for Closed-Source Android Apps</strong></em> - 70th Anniversary of Research and Creation at Universidad de los Andes, Colombia
 
 ---
 
