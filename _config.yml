@@ -7,7 +7,6 @@ title:            Camilo Escobar-Velásquez
 tagline:          'Ph.D. Student and Amateur Chef'
 description:      'Ph.D. Student and Amateur Chef'
 url:              https://caev03.github.io
-version:          '3.0'
 baseurl:          ''
                   # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.

@@ -3,7 +3,7 @@
 
 {% if entry.type == "inproceedings" %}
 <strong class="pubtitle">{{ entry.title }}.</strong> <br> <em>{{ entry.author | replace:"Escobar-Velásquez, Camilo","<strong>Escobar-Velásquez, Camilo</strong>"}}</em>. <br> In {{ entry.booktitle }} {{ entry.year }} ({{ entry.series }}) - {{ entry.track }} Track
-{% if entry.doi %}[<a href="https://doi.org/{{ entry.doi }}"> DOI </a>]{% endif %} [<a href="{{ entry.preprint }}"> Pre-Print </a>] {% if entry.online %}[ <a href="{{ entry.online }}"> Online Appendix </a> ]{% endif %}
+{% if entry.doi %}[<a href="https://doi.org/{{ entry.doi }}"> DOI </a>]{% endif %}{% if entry.preprint %}[<a href="{{ entry.preprint }}"> Pre-Print </a>]{% endif %}{% if entry.online %}[ <a href="{{ entry.online }}"> Online Appendix </a> ]{% endif %}
 {% elsif entry.type == "misc" %}
 <strong class="pubtitle">{{ entry.title }}.</strong> <br> {{ entry.author }}. In {{ entry.booktitle }} {{ entry.year }} [<a href="{{ entry.url }}"> DOI </a>]
 {% elsif entry.type == "article" %}
