@@ -1,0 +1,22 @@
+<section id="publications">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2>Publications</h2>
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-1">
+          <h3>Journals</h2>
+          {% bibliography -f journals %}
+          <h3>Conferences</h2>
+          {% bibliography -f conferences %}
+          <h3>Workshops</h2>
+          {% bibliography -f workshops %}
+          <h3>Posters</h3>
+          {% bibliography --file posters%}
+        </div>
+      </div>
+    </div>
+  </section>

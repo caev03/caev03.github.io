@@ -1,16 +1,20 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
+{% include head.html %}
 
-  {% include head.html %}
+<body id="page-top" class="index">
+  {% include nav.html %}
+  {% include header.html %}
+  {% include about.html %}
+  {% include awards.html %}
+  {% include publications.html %}
+  {% include service.html %}
+  {% include teaching.html %}
+  {% include team.html %}
 
-  <body class="{{ page.layout }}{% if page.url == '/' %} home{% endif %}">
+  {% include footer.html %}
+  {% include modals.html %}
+  {% include js.html %}
+</body>
 
-    {% include sidebar.html %}
-
-    <main class="container">
-      {{ content }}
-    </main>
-
-    {% include custom-foot.html %}
-  </body>
 </html>

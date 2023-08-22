@@ -1,56 +1,60 @@
-# Dependencies
-markdown:         kramdown
-highlighter:      rouge
+# Site settings
+name: Camilo 
+lastname: Escobar-Velásquez
+email: ca.escobar2434@uniandes.edu.co
+work: "Assistant Profesor"
+url: http://caev03.github.io
+description: "Assistant Profesor at Universidad de los Andes, Colombia. Software Engineer - Test Automator - Amateur Chef"
+skills: "Software Engineer - Test Automator - Professor - Amateur Chef"
+meta_author: Escobar-Velásquez Camilo
 
-# Setup
-title:            Camilo Escobar-Velásquez
-tagline:          'Ph.D. Student and Amateur Chef'
-description:      'Ph.D. Student and Amateur Chef'
-url:              https://caev03.github.io
-baseurl:          ''
-                  # the optional subpath of your site, e.g. "/blog"
-                  # NB: This applies to all pages in your Jekyll site.
-                  # If you want to move just the blog index pages but keep
-                  # other pages at root, see the paginate_path and
-                  # sidebar_blog_link below.
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: D8E0E9 #80B3FF
+  primary-rgb: "103,146,137" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
 
-author:
-  name:           'Camilo Escobar-Velásquez'
-  url:            https://twitter.com/caev03
-  email:          ca.escobar2434@uniandes.edu.co
+# Footer settings
+footer:
+  copyright: Dr. Henry Jekyll
+  location: Location
+  social: Around the Web
+  contact: Contact
 
-# paginate:         0
-# paginate_path:    '/page:num'
-                    # Or '/blog/page:num' if you want to move your index pages
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: google
+    url: https://scholar.google.com/citations?user=cOGjd9kAAAAJ&hl=es
+  - title: twitter
+    url: http://twitter.com/caev03
+  - title: github
+    url: https://github.com/caev03
+  - title: linkedin
+    url: https://www.linkedin.com/in/caev03/?locale=en_US
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Cra 1 Nº 18A - 12 - Of. ML739
+  - line: Bogotá, Colombia - 111711
+
+# Credits content
+credits: 'ca.escobar2434@uniandes.edu.co'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+#for posts
+collections:
+  post:
+    output: true
+  projects:
+    output: true
+
 scholar:
   style: apa
   source: ./_bibliography
   sort_by: year
   order: descending
   bibliography_template: bib
-  
-plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-scholar
-  - jekyll-octicons
-
-# Sidebar link settings
-sidebar_home_link:  true
-# sidebar_blog_link:  '/blog'   # By default, your home page is your blog
-                                # page. If you change your paginate_path,
-                                # set this to the root of the paginate_path
-                                # to enable a separate blog link.
-github:
-  repo: https://github.com/caev03
-twitter: https://twitter.com/caev03
-linkedin: https://www.linkedin.com/in/caev03/
-instagram: https://www.instagram.com/caev03/
-gscholar: https://scholar.google.com/citations?user=cOGjd9kAAAAJ&hl=es
-
-defaults:
-  - scope:
-      path: "assets/imgs"
-    values:
-      image: true

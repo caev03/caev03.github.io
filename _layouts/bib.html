@@ -1,5 +1,8 @@
----
----
+<style>
+    li {
+        font-size: 19px;
+    }
+</style>
 
 {% if entry.type == "inproceedings" %}
 <strong class="pubtitle">{{ entry.title }}.</strong> <br> <em>{{ entry.author | replace:"Escobar-Velásquez, Camilo","<strong>Escobar-Velásquez, Camilo</strong>"}}</em>. <br> In {{ entry.booktitle }} {{ entry.year }} ({{ entry.series }}) - {{ entry.track }} Track
