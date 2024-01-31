@@ -110,15 +110,11 @@ header {
 }
 
 header .container {
-    padding-top: 70px;
+    padding-top: 100px;
     padding-bottom: 50px;
 }
 
 section .profile-img {
-    display: none;
-}
-
-header .profile-img {
     display: block;
 }
 
@@ -130,7 +126,7 @@ header .intro-text {
     margin-top: 20px;
 }
 
-header .intro-text .name {
+span .name {
     display: block;
     text-transform: uppercase;
     font-family: Roboto,Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -152,6 +148,7 @@ header .intro-text .skills {
 }
 
 @media(min-width:768px) {
+    
     header .container {
         padding-top: 150px;
         padding-bottom: 30px;
@@ -159,10 +156,6 @@ header .intro-text .skills {
 
     section .profile-img {
         display: block;
-    }
-
-    header .profile-img {
-        display: none;
     }
 
     header .intro-text {
@@ -229,7 +222,7 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 100px 0 20px 0;
+    padding: 30px 0 20px 0;
 }
 
 section h2 {
